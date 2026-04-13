@@ -18,7 +18,7 @@ const Navbar = () => {
 
     <button
     onClick={()=> setToogleBtn("home")}
-    className={`btn bg-base-100 border-none text-lg shadow-none rounded-lg transition-all duration-300
+    className={`btn bg-base-100 border-none text-lg shadow-none hover:bg-green-900 rounded-sm transition-all duration-300
       ${toogleBtn === 'home'
         ? 'bg-green-950 text-white'
         : 'text-gray-500 '
@@ -26,7 +26,7 @@ const Navbar = () => {
 
     <button
     onClick={()=> setToogleBtn("timeline")}
-    className={`btn bg-base-100 border-none text-lg shadow-none rounded-lg transition-all duration-300
+    className={`btn bg-base-100 border-none text-lg shadow-none hover:bg-green-900 rounded-sm transition-all duration-300
       ${toogleBtn === 'timeline'
         ? 'bg-green-950 text-white'
         : 'text-gray-500'
@@ -34,7 +34,7 @@ const Navbar = () => {
 
     <button
     onClick={()=> setToogleBtn("stats")}
-    className={`btn bg-base-100 border-none text-lg shadow-none rounded-lg transition-all duration-300
+    className={`btn bg-base-100 border-none text-lg shadow-none hover:bg-green-900 rounded-sm transition-all duration-300
       ${toogleBtn === 'stats'
         ? 'bg-green-950 text-white'
         : 'text-gray-500'

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Emma Wilson",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "emma.wilson@designcorp.com",
+    "days_since_contact": 62,
+    "status": "overdue",
+    "tags": ["work", "mentor"],
+    "bio": "Former colleague and a great mentor. We usually catch up on UX trends and career growth.",
+    "goal": 30,
+    "next_due_date": "2026-02-27"
+  },
+  {
+    "id": 2,
+    "name": "David Kim",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "d.kim.photo@gmail.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": ["hobby", "fitness"],
+    "bio": "Biking buddy from the local cycling club. He's training for a triathlon this summer.",
+    "goal": 14,
+    "next_due_date": "2026-03-15"
+  },
+  {
+    "id": 3,
+    "name": "Lisa Nakamura",
+    "picture": "https://randomuser.me/api/portraits/women/67.jpg",
+    "email": "lisa.nak@university.edu",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["college", "travel"],
+    "bio": "College roommate. We travelled through Southeast Asia together. Currently living in Tokyo.",
+    "goal": 60,
+    "next_due_date": "2026-06-05"
+  },
+  {
+    "id": 4,
+    "name": "James Wright",
+    "picture": "https://randomuser.me/api/portraits/men/85.jpg",
+    "email": "jwright.dev@outlook.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["gaming", "close friend"],
+    "bio": "High school best friend. We play cooperative RPGs every Sunday night to stay in touch.",
+    "goal": 14,
+    "next_due_date": "2026-04-18"
+  },
+  {
+    "id": 5,
+    "name": "Sarah Chen",
+    "picture": "https://randomuser.me/api/portraits/women/12.jpg",
+    "email": "sarah.chen@startup.io",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["professional", "networking"],
+    "bio": "Met at a tech conference. Helpful contact for industry insights and market trends.",
+    "goal": 90,
+    "next_due_date": "2026-07-10"
+  },
+  {
+    "id": 6,
+    "name": "Marcus Thorne",
+    "picture": "https://randomuser.me/api/portraits/men/41.jpg",
+    "email": "m.thorne@lifestyle.com",
+    "days_since_contact": 28,
+    "status": "almost due",
+    "tags": ["neighbor", "family"],
+    "bio": "Next-door neighbor who helps with gardening. Our families often have weekend BBQs.",
+    "goal": 30,
+    "next_due_date": "2026-04-16"
+  },
+  {
+    "id": 7,
+    "name": "Elena Rodriguez",
+    "picture": "https://randomuser.me/api/portraits/women/22.jpg",
+    "email": "elena.rod@artstudio.org",
+    "days_since_contact": 120,
+    "status": "overdue",
+    "tags": ["childhood", "close friend"],
+    "bio": "Grew up on the same street. We lost touch recently and I really need to reconnect.",
+    "goal": 30,
+    "next_due_date": "2026-01-15"
+  },
+  {
+    "id": 8,
+    "name": "Jordan Smith",
+    "picture": "https://randomuser.me/api/portraits/men/55.jpg",
+    "email": "jordan.smith@vibe.com",
+    "days_since_contact": 1,
+    "status": "on-track",
+    "tags": ["gym", "fitness"],
+    "bio": "Accountability partner for weightlifting. We keep each other motivated at the 6 AM sessions.",
+    "goal": 7,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 9,
+    "name": "Priya Kapoor",
+    "picture": "https://randomuser.me/api/portraits/women/89.jpg",
+    "email": "priya.k@wellness.com",
+    "days_since_contact": 10,
+    "status": "on-track",
+    "tags": ["hiking", "travel"],
+    "bio": "Met during a trekking trip in Nepal. Shares a deep love for mountain photography.",
+    "goal": 45,
+    "next_due_date": "2026-05-18"
+  },
+  {
+    "id": 10,
+    "name": "Robert Miller",
+    "picture": "https://randomuser.me/api/portraits/men/20.jpg",
+    "email": "bob.miller@invest.com",
+    "days_since_contact": 85,
+    "status": "overdue",
+    "tags": ["family", "mentor"],
+    "bio": "My uncle who gives great financial advice. Always encourages me to save for the future.",
+    "goal": 60,
+    "next_due_date": "2026-03-20"
+  }
+]
