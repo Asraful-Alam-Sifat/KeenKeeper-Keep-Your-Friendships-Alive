@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="container mx-auto ">
+    <div className="container mx-auto pb-20">
       <Header />
       <Banner />
       <hr className="text-gray-200 my-10"/>

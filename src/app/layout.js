@@ -32,11 +32,11 @@ export default function RootLayout({ children }) {
            <Navbar />
          </header>
 
-        <main className="bg-base-200">
+        <main className="bg-base-200 ">
           { children }
          </main>
 
-         <footer >
+         <footer className="bg-[#244d3fFF] text-white">
           <Footer />
           </footer>        
         </body>
