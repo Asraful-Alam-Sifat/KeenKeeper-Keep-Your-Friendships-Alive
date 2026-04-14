@@ -1,8 +1,10 @@
 "use client";
 
 import { ChartLine, Clock3, House } from 'lucide-react';
+import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
+import logoImage from '../../assets/Image assets/logo.png'
 
 const Navbar = () => {
   const [toogleBtn, setToogleBtn] = useState('home');
@@ -12,7 +14,11 @@ const Navbar = () => {
         <div>
             <div className="navbar bg-base-100 shadow-sm px-20 flex-col md:flex-row">
   <div className="flex-1">
-    <Link href='/' className="btn-ghost text-2xl font-semibold text-green-950 "><span className="font-bold text-black text-2xl">Keen</span>Keeper</Link>
+    <Link href='/' className="btn-ghost text-2xl font-semibold text-green-950 ">
+    <Image 
+     src={logoImage}
+     alt='logo Image' />
+    </Link>
   </div>
   <div className="flex gap-5 mt-5 md:mt-0">
 

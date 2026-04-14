@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Emma Wilson",
-    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "picture": "https://i.ibb.co.com/HL6jbqS3/1734022263565.jpg",
     "email": "emma.wilson@designcorp.com",
     "days_since_contact": 62,
     "status": "overdue",
@@ -14,7 +14,7 @@
   {
     "id": 2,
     "name": "David Kim",
-    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "picture": "https://i.ibb.co.com/FbjJTrBT/images.jpg",
     "email": "d.kim.photo@gmail.com",
     "days_since_contact": 45,
     "status": "overdue",
@@ -26,7 +26,7 @@
   {
     "id": 3,
     "name": "Lisa Nakamura",
-    "picture": "https://randomuser.me/api/portraits/women/67.jpg",
+    "picture": "https://i.ibb.co.com/FktBTXJV/Untitled.jpg",
     "email": "lisa.nak@university.edu",
     "days_since_contact": 5,
     "status": "on-track",
@@ -38,7 +38,7 @@
   {
     "id": 4,
     "name": "James Wright",
-    "picture": "https://randomuser.me/api/portraits/men/85.jpg",
+    "picture": "https://i.ibb.co.com/5XzfvbvK/Untitled-1.jpg",
     "email": "jwright.dev@outlook.com",
     "days_since_contact": 12,
     "status": "almost due",
@@ -50,7 +50,7 @@
   {
     "id": 5,
     "name": "Sarah Chen",
-    "picture": "https://randomuser.me/api/portraits/women/12.jpg",
+    "picture": "https://i.ibb.co.com/yFLLbWkP/images.jpg",
     "email": "sarah.chen@startup.io",
     "days_since_contact": 2,
     "status": "on-track",
@@ -62,7 +62,7 @@
   {
     "id": 6,
     "name": "Marcus Thorne",
-    "picture": "https://randomuser.me/api/portraits/men/41.jpg",
+    "picture": "https://i.ibb.co.com/1tDkRC78/Untitled.jpg",
     "email": "m.thorne@lifestyle.com",
     "days_since_contact": 28,
     "status": "almost due",
@@ -74,7 +74,7 @@
   {
     "id": 7,
     "name": "Elena Rodriguez",
-    "picture": "https://randomuser.me/api/portraits/women/22.jpg",
+    "picture": "https://i.ibb.co.com/mr2hvVj7/Untitled-1.jpg",
     "email": "elena.rod@artstudio.org",
     "days_since_contact": 120,
     "status": "overdue",
@@ -86,7 +86,7 @@
   {
     "id": 8,
     "name": "Jordan Smith",
-    "picture": "https://randomuser.me/api/portraits/men/55.jpg",
+    "picture": "https://i.ibb.co.com/k215YKgv/Untitled.jpg",
     "email": "jordan.smith@vibe.com",
     "days_since_contact": 1,
     "status": "on-track",
@@ -98,7 +98,7 @@
   {
     "id": 9,
     "name": "Priya Kapoor",
-    "picture": "https://randomuser.me/api/portraits/women/89.jpg",
+    "picture": "https://i.ibb.co.com/SwVkF1Qc/images.jpg",
     "email": "priya.k@wellness.com",
     "days_since_contact": 10,
     "status": "on-track",
@@ -110,7 +110,7 @@
   {
     "id": 10,
     "name": "Robert Miller",
-    "picture": "https://randomuser.me/api/portraits/men/20.jpg",
+    "picture": "https://i.ibb.co.com/sdsy6hrB/Untitled.jpg",
     "email": "bob.miller@invest.com",
     "days_since_contact": 85,
     "status": "overdue",
