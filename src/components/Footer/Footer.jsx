@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import React from 'react';
-import instagramLogo from '../../assets/Image assets/instagram.png';
-import facebookLogo from '../../assets/Image assets/facebook.png';
-import twitterLogo from '../../assets/Image assets/twitter.png';
+import instagramLogo from '../../assets/Image-assets/instagram.png';
+import facebookLogo from '../../assets/Image-assets/facebook.png';
+import twitterLogo from '../../assets/Image-assets/twitter.png';
 
 const Footer = () => {
     return (
@@ -31,7 +31,7 @@ const Footer = () => {
                 </div>
             </div>
 
-<hr className='text-white opacity-15 my-10'/>
+<hr className='text-white opacity-15 my-10 border'/>
 
             <div className='flex justify-between'>
                 <p className='font-normal opacity-50'><small>&copy; 2026 KeenKeeper. All rights reserved.</small></p>

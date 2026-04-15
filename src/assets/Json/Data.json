@@ -6,8 +6,8 @@
     "email": "emma.wilson@designcorp.com",
     "days_since_contact": 62,
     "status": "overdue",
-    "tags": ["work", "mentor"],
-    "bio": "Former colleague and a great mentor. We usually catch up on UX trends and career growth.",
+    "tags": ["mentor"],
+    "bio": "Former colleague and a great mentor",
     "goal": 30,
     "next_due_date": "2026-02-27"
   },
@@ -18,8 +18,8 @@
     "email": "d.kim.photo@gmail.com",
     "days_since_contact": 45,
     "status": "overdue",
-    "tags": ["hobby", "fitness"],
-    "bio": "Biking buddy from the local cycling club. He's training for a triathlon this summer.",
+    "tags": ["fitness"],
+    "bio": "Biking buddy from the local cycling club",
     "goal": 14,
     "next_due_date": "2026-03-15"
   },
@@ -31,7 +31,7 @@
     "days_since_contact": 5,
     "status": "on-track",
     "tags": ["college", "travel"],
-    "bio": "College roommate. We travelled through Southeast Asia together. Currently living in Tokyo.",
+    "bio": "College roommate. We travelled through Southeast Asia together",
     "goal": 60,
     "next_due_date": "2026-06-05"
   },
@@ -43,7 +43,7 @@
     "days_since_contact": 12,
     "status": "almost due",
     "tags": ["gaming", "close friend"],
-    "bio": "High school best friend. We play cooperative RPGs every Sunday night to stay in touch.",
+    "bio": "High school best friend",
     "goal": 14,
     "next_due_date": "2026-04-18"
   },
@@ -54,8 +54,8 @@
     "email": "sarah.chen@startup.io",
     "days_since_contact": 2,
     "status": "on-track",
-    "tags": ["professional", "networking"],
-    "bio": "Met at a tech conference. Helpful contact for industry insights and market trends.",
+    "tags": ["professional"],
+    "bio": "Met at a tech conference",
     "goal": 90,
     "next_due_date": "2026-07-10"
   },
@@ -66,8 +66,8 @@
     "email": "m.thorne@lifestyle.com",
     "days_since_contact": 28,
     "status": "almost due",
-    "tags": ["neighbor", "family"],
-    "bio": "Next-door neighbor who helps with gardening. Our families often have weekend BBQs.",
+    "tags": ["neighbor"],
+    "bio": "Next-door neighbor who helps with gardening",
     "goal": 30,
     "next_due_date": "2026-04-16"
   },
@@ -79,7 +79,7 @@
     "days_since_contact": 120,
     "status": "overdue",
     "tags": ["childhood", "close friend"],
-    "bio": "Grew up on the same street. We lost touch recently and I really need to reconnect.",
+    "bio": "We lost touch recently and I really need to reconnect",
     "goal": 30,
     "next_due_date": "2026-01-15"
   },
@@ -91,7 +91,7 @@
     "days_since_contact": 1,
     "status": "on-track",
     "tags": ["gym", "fitness"],
-    "bio": "Accountability partner for weightlifting. We keep each other motivated at the 6 AM sessions.",
+    "bio": "Accountability partner for weightlifting",
     "goal": 7,
     "next_due_date": "2026-04-20"
   },
@@ -103,7 +103,7 @@
     "days_since_contact": 10,
     "status": "on-track",
     "tags": ["hiking", "travel"],
-    "bio": "Met during a trekking trip in Nepal. Shares a deep love for mountain photography.",
+    "bio": "Met during a trekking trip in Nepal",
     "goal": 45,
     "next_due_date": "2026-05-18"
   },
@@ -114,8 +114,8 @@
     "email": "bob.miller@invest.com",
     "days_since_contact": 85,
     "status": "overdue",
-    "tags": ["family", "mentor"],
-    "bio": "My uncle who gives great financial advice. Always encourages me to save for the future.",
+    "tags": ["mentor"],
+    "bio": "My uncle who gives great financial advice",
     "goal": 60,
     "next_due_date": "2026-03-20"
   }

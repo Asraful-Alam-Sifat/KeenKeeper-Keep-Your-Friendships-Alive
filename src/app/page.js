@@ -9,7 +9,7 @@ export default function Home() {
     <div className="container mx-auto pb-20">
       <Header />
       <Banner />
-      <hr className="text-gray-200 my-10"/>
+      <hr className="text-gray-200 my-10 border"/>
       <Friends />
     </div>
   );

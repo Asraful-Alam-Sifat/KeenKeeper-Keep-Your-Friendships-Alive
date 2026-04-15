@@ -4,7 +4,7 @@ import { ChartLine, Clock3, House } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
-import logoImage from '../../assets/Image assets/logo.png'
+import logoImage from '../../assets/Image-assets/logo.png'
 
 const Navbar = () => {
   const [toogleBtn, setToogleBtn] = useState('home');
