@@ -7,7 +7,7 @@ const FriendsCard = ({friends}) => {
 
     return (
       <Link href={`/friends/${friends.id}`}>
-<div className=" p-4 py-7 rounded-lg bg-base-100 border-2 border-gray-200 shadow-xl hover:border-blue-600 transition-all duration-300">
+<div className=" p-4 py-7 rounded-lg bg-base-100 border-2 border-gray-200 shadow-xl hover:border-green-700 transition-all duration-300">
   
       <Image 
       className='rounded-full w-19 h-20 mx-auto'
