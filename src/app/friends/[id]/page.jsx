@@ -17,11 +17,11 @@ const FriendDetails = ({ params }) => {
   const [showAll, setShowAll] = useState(false);
 
   useEffect(() => {
-  const saved = localStorage.getItem(`friend_interactions_${friend.id}`);
-  if (saved) {
-    setInteractions(JSON.parse(saved));
-  }
-}, [friend.id]);
+    const saved = localStorage.getItem(`friend_interactions_${friend.id}`);
+    if (saved) {
+      setInteractions(JSON.parse(saved));
+    }
+  }, [friend.id]);
 
   const formatDate = () => {
     const date = new Date(friend.next_due_date);
@@ -38,18 +38,34 @@ const FriendDetails = ({ params }) => {
       note: `${type} with ${friend.name}`,
       friendName: friend.name,
 
-      time: now.toLocaleTimeString("en-US", {hour: "numeric", minute: "2-digit", hour12: true,}),
-      date: now.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric",}),
+      time: now.toLocaleTimeString("en-US", {
+        hour: "numeric",
+        minute: "2-digit",
+        hour12: true,
+      }),
+      date: now.toLocaleDateString("en-US", {
+        month: "short",
+        day: "numeric",
+        year: "numeric",
+      }),
     };
-    
-    const timeline = JSON.parse(localStorage.getItem('timeline_interactions') || '[]');
-  localStorage.setItem('timeline_interactions', JSON.stringify([newCard, ...timeline]));
+
+    const timeline = JSON.parse(
+      localStorage.getItem("timeline_interactions") || "[]",
+    );
+    localStorage.setItem(
+      "timeline_interactions",
+      JSON.stringify([newCard, ...timeline]),
+    );
 
     setInteractions((prev) => {
-    const updated = [newCard, ...prev];
-    localStorage.setItem(`friend_interactions_${friend.id}`, JSON.stringify(updated));
-    return updated;
-    })
+      const updated = [newCard, ...prev];
+      localStorage.setItem(
+        `friend_interactions_${friend.id}`,
+        JSON.stringify(updated),
+      );
+      return updated;
+    });
   };
 
   return (
