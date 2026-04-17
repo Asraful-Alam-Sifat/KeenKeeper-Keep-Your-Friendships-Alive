@@ -4,9 +4,12 @@ KeenKeeper is a friendship management app designed to help you stay connected wi
 
 ## 🛠️ Built With
 
--  React — for building dynamic user interfaces  
--  Next.js — for performance and scalable architecture  
--  Tailwind CSS — for fast and responsive styling 
+| Technology | Purpose |
+|---|---|
+| **React.js/Next.js** | Build the UI |
+| **React Router DOM/App router(Next.js)** | Handle page navigation |
+| **Tailwind CSS+Any component library** | Styling and responsiveness |
+| **Recharts** | Chart |
 
 ## 🔑 Key Features
 
