@@ -2,19 +2,19 @@
 
 KeenKeeper is a friendship management app designed to help you stay connected with the people who matter most. It gives you a simple way to track interactions, manage friend details, and view friendship activity in one clean dashboard.
 
-## Technologies Used
+## 🛠️ Built With
 
-- React
-- Next.js
-- Tailwind CSS
+-  React — for building dynamic user interfaces  
+-  Next.js — for performance and scalable architecture  
+-  Tailwind CSS — for fast and responsive styling 
 
-## Key Features
+## 🔑 Key Features
 
 1. **Friend Dashboard**  
    View all your friends in one organized place with quick status updates and contact info.
 
-2. **Timeline Tracking**  
-   Track your recent conversations and interactions so you never lose touch.
+2. **Interaction Timeline**  
+   A clean, chronological view of your conversations and meetups, helping you remember *when* and *how* you last connected.
 
 3. **Friendship Analytics**  
-   See useful stats and insights about your communication patterns and relationship activity.
+   See useful stats about your communication patterns and relationship activity.
