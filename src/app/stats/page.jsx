@@ -35,7 +35,7 @@ const Stats = () => {
     }, [])
 
     return (
-        <div className='max-w-9/12 mx-auto my-15 '>
+        <div className='sm:max-w-9/12 mx-auto sm:my-15 px-3 py-10'>
             <h1 className='font-bold text-5xl capitalize'>Friendship Analytics</h1>
             <div className='bg-base-100 mt-5 p-6 rounded-xl'>
                 <h3 className='font-semibold text-3xl ml-3 text-[#244d3f]'>By Interaction Type</h3>

@@ -8,6 +8,7 @@ import ArchiveIcon from "../../../assets/Iocns-assets/Archive.png";
 import DeleteIcon from "../../../assets/Iocns-assets/Delete.png";
 import { MessageSquareMore, PhoneCall, Video } from "lucide-react";
 import RecentInteractions from "./RecentInteractions";
+import { toast } from "react-toastify";
 
 const FriendDetails = ({ params }) => {
   const paramsPromise = use(params);
@@ -32,6 +33,8 @@ const FriendDetails = ({ params }) => {
     });
   };
   const handleCheckIn = (type) => {
+
+
     const now = new Date();
     const newCard = {
       type: type,
@@ -50,6 +53,15 @@ const FriendDetails = ({ params }) => {
       }),
     };
 
+
+       if(type === "Call"){
+    toast.success(`Call With ${newCard.friendName}`)
+   }else if(type === 'Text'){
+    toast.success(`Text With ${newCard.friendName}`)
+   }else {
+    toast.success(`Video With ${newCard.friendName}`)
+   }
+
     const timeline = JSON.parse(
       localStorage.getItem("timeline_interactions") || "[]",
     );
@@ -64,6 +76,9 @@ const FriendDetails = ({ params }) => {
         `friend_interactions_${friend.id}`,
         JSON.stringify(updated),
       );
+
+      
+
       return updated;
     });
   };
