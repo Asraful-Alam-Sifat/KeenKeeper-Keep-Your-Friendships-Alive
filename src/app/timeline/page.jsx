@@ -25,7 +25,7 @@ const Timeline = () => {
       : timelineCards.filter((card) => card.type === filter);
 
   return (
-    <div className="md:max-w-9/12 p-3 mx-auto my-15">
+    <div className="md:max-w-9/12 min-h-max p-3 mx-auto my-15">
       <div>
         <h1 className="font-bold text-4xl mb-6">TimeLine</h1>
         <Dropdown timelineCards={timelineCards} onFilterChange={setFilter} />
